@@ -8,7 +8,7 @@ Install dependencies <br>
 
 Use your service account to use your Earth Engine assets. <br>
 More info https://developers.google.com/earth-engine/guides/npm_install  <br>
-Then paste you privatekey.json in the root folder
+Then paste your privatekey.json into the root folder
 
 #### Run application
 `npm start`
