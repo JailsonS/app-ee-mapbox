@@ -1,6 +1,6 @@
-### App mapbox Earth Engine
+### App Mapbox Earth Engine
 
-This is a basic application that combine the use of Google Earth Engine and Mapbox to visualize spatial data
+This is a basic application that combines the use of Google Earth Engine and Mapbox to visualize spatial data
 
 #### Config
 Install dependencies <br>
