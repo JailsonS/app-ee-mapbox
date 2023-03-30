@@ -22,7 +22,7 @@ app.use('/', indexRouter);
 
 
 // Private key, in `.json` format, for an Earth Engine service account.
-const PRIVATE_KEY = require('./privatekey.json');
+const PRIVATE_KEY = require('./private-key.json');
 const PORT = process.env.PORT || 3000;
 
 ee.data.authenticateViaPrivateKey(PRIVATE_KEY, () => {
@@ -30,6 +30,8 @@ ee.data.authenticateViaPrivateKey(PRIVATE_KEY, () => {
     app.listen(PORT);
     console.log(`Listening on port ${PORT}`);
   });
+}, (e) => {
+    console.error('Authentication error: ' + e);
 });
 
 

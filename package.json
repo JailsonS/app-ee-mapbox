@@ -1,12 +1,12 @@
 {
-  "name": "app-3d",
+  "name": "app-ee-mapbox",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "@google/earthengine": "^0.1.346",
+    "@google/earthengine": "^0.1.347",
     "consolidate": "^0.16.0",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
